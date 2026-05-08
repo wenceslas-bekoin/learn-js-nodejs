@@ -1,0 +1,30 @@
+{
+  "name": "learn-js-nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Projet de formation JavaScript et Node.js avec ES Modules",
+  "main": "src/server.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "training",
+    "esmodules"
+  ],
+  "author": "Wenceslas Bekoin",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
