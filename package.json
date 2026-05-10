@@ -21,8 +21,8 @@
   ],
   "author": "Wenceslas Bekoin",
   "license": "ISC",
-  "engines": {
-    "node": ">=18"
+  "engines": { 
+    "node": ">=18" 
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
