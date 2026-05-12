@@ -2,7 +2,7 @@
 learn-js-nodejs
 
 # Description
-Projet de formation por maîtriser Javascript et Node.js avec ES Modules.
+Projet de formation pour maîtriser Javascript et Node.js avec ES Modules.
 
 # Objectifs du projet
 -Comprendre ES Modules
