@@ -1,3 +1,5 @@
+// 01------- Exports nommés ------------------------
+
 // exporter la fonction addition
 export function addition(a, b){   
     return a + b;
@@ -20,3 +22,15 @@ export function division(a, b){
     }
     return a / b;
 }
+
+//02-----------------Export default (un seul par fichier)----------------
+export default function calculer(a, operateur, b){
+    const oprs = {
+        '+' : addition,
+        '-' : soustraire,
+        '*' : multiplication,
+        '/' : division
+    }
+    return oprs[operateur]?.(a, b) ?? null;
+}
+
