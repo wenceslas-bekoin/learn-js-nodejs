@@ -2,10 +2,13 @@
 
 # Documentation
 -MDN Web Docs - javascript
--Node.js documentation
+-Nodejs.org/docs/
+-devdocs.io/node/
+-devdocs.io/javascript
  
  # Plateformes
  -3WSchoole.com
+ -grafikart.fr
 
  # Outils indispensable
  -Vscode
