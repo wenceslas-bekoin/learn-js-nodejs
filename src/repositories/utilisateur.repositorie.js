@@ -33,11 +33,15 @@ async function sauvegarderUtilisateurs(nouveauxTableau){
         //Transformer le tableau objet JS en texte JSON
         const contenuJson = JSON.stringify(nouveauxTableau, null, 2);//null, 2 pour rendre json lisible
 
-        //Ecrire dans le fichier
+        //Ecrire /Écrasement du fichier
         await fs.writeFile(FILE_PATH, contenuJson, "utf-8");
+
+        console.log("Savegarde réussie des utilisateurs dans le fichier JSON!");
+        return nouveauxTableau;
 
     }catch(error){
         console.log("Erreur lors de l'écriture du fichier:", error.message);
+        return false;
     }
 }
 
